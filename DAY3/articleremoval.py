@@ -1,0 +1,9 @@
+
+story=input("Enter the sentence: ")
+story=story.replace('the','')
+story=story.replace('The','')
+story=story.replace('an','')
+story=story.replace('An','')
+story=story.replace('a','')
+story=story.replace('A','')
+print(story)
